@@ -1,0 +1,12 @@
+CONCLUSION:
+Analysis of "Pima Indians Diabetes Mellitus Classification Based on Machine Learning (ML) Algorithms" and Extended Implementation
+
+This report details the analysis and extension of the research paper "Pima Indians diabetes mellitus classification based on machine learning (ML) algorithms." Conducted by Sumair Javed (SP25-RAI-019) and Iqra Rathore (SP25-RAI-018), this study aimed to replicate and expand upon the findings of the original paper.
+
+The original research focused on the application of three machine learning algorithms for the classification of diabetes in the Pima Indians dataset: J48 Decision Tree, Random Forest, and Naive Bayes. In our extended implementation, we not only reproduced the evaluation of these three algorithms but also incorporated three additional classification models: Logistic Regression, K-Nearest Neighbors (KNN), and Support Vector Machines (SVM).
+
+The performance of all six models was systematically evaluated across different feature subsets: the top 3 features, the top 5 features, and all available features within the dataset. The accuracy metrics for each model and feature set combination were meticulously tracked and visualized using the MLflow platform. This enabled a comprehensive comparison of model performance under varying input dimensionality.
+
+Furthermore, a direct comparison was made between the accuracy results obtained in our implementation and those reported in the original research paper for the common algorithms (J48 Decision Tree, Random Forest, and Naive Bayes). The results of this comparison, also visualized using bar plots and logged in MLflow, indicated that the accuracy achieved in the original paper was generally superior to that of our implementation across the shared models and feature sets.
+
+In conclusion, while our study successfully extended the original research by evaluating a broader range of classification algorithms and performing a detailed comparison across different feature sets, the observed discrepancy in accuracy compared to the original paper highlights the critical role of data preprocessing, dataset partitioning, and potentially subtle differences in the experimental setup. Further investigation into the specific methodologies employed in the original research would be necessary to pinpoint the exact reasons for the superior performance reported therein. The comprehensive tracking in MLflow provides a valuable platform for future experiments aimed at understanding and potentially bridging this performance gap.
